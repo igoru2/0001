@@ -1,0 +1,74 @@
+@font-face {
+    font-family: ElMessiri;
+    src: url(../fonts/ElMessiri-VariableFont_wght.ttf);
+}
+   
+* {    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ElMessiri;
+}
+
+.holder {
+    margin: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.div1 {
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+.div2 {
+    margin-top: 20px;
+    width: 70%;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #0fa5d9;
+}
+
+a:hover {
+    color:gray;
+}
+
+
+.cleaner {
+    clear: both;
+}
+
+.div2 p {
+    margin-bottom: 30px;
+}
+
+img, .category {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.category {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.by {
+    margin-top: 10px;
+    color: #999999;
+}
+
+.by a {
+    color: #999999;
+}
+
+.by a:hover {
+    color: #0fa5d9; 
+}
+
+.mirror {
+    font-size: 18px;
+    font-weight: bold;
+}
